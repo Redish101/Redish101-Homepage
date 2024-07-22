@@ -55,10 +55,8 @@ async function ReMonitor() {
   });
   const monitorData = await monitorRes.json();
 
-  const lastestGithubEventTimeDiff =
-    monitorData["data"]["lastestGithubEventTimeDiff"];
   const latestReMonitorEventTimeDiff =
-    monitorData["data"]["latestReMonitorEventTimeDiff"];
+    monitorData["data"];
 
   const msToStr = (ms: number) => {
     const sec = Math.floor(ms / 1000);
@@ -85,13 +83,7 @@ async function ReMonitor() {
       </div>
       <div>
         <div className="font-normal text-2xl">
-          上次GitHub活动于
-          <span className="font-bold font-mono text-teal-700 text-4xl mx-8">
-            {msToStr(lastestGithubEventTimeDiff)}前
-          </span>
-        </div>
-        <div className="font-normal text-2xl">
-          上次remonitor-client正常状态上报于
+          上次正常状态上报于
           <span className="font-bold font-mono text-teal-700 text-4xl mx-8">
             {msToStr(latestReMonitorEventTimeDiff)}前
           </span>
