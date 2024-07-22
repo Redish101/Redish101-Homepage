@@ -12,4 +12,6 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-synthesis: none;
+  margin: 0;
+  padding: 0;
 }
