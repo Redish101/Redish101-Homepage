@@ -50,7 +50,9 @@ function QrcodeGenerator() {
 }
 
 async function ReMonitor() {
-  const monitorRes = await fetch("https://redish101-remonitor.deno.dev");
+  const monitorRes = await fetch("https://redish101-remonitor.deno.dev", {
+    cache: "no-cache",
+  });
   const monitorData = await monitorRes.json();
 
   const lastestGithubEventTimeDiff =
