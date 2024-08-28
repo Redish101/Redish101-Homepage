@@ -55,8 +55,7 @@ async function ReMonitor() {
   });
   const monitorData = await monitorRes.json();
 
-  const latestReMonitorEventTimeDiff =
-    monitorData["data"];
+  const latestReMonitorEventTimeDiff = monitorData["data"];
 
   const msToStr = (ms: number) => {
     const sec = Math.floor(ms / 1000);

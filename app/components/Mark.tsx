@@ -5,5 +5,7 @@ export default function Mark({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <mark className="rounded-lg p-1 bg-blue-200 font-mono">{children}</mark>;
+  return (
+    <mark className="rounded-lg p-1 bg-blue-200 font-mono">{children}</mark>
+  );
 }
