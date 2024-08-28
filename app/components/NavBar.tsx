@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <nav className="bg-nav-background backdrop-blur shadow h-12 flex justify-between items-center px-16 fixed w-full z-100 top-0">
+    <nav className="bg-nav-background backdrop-blur shadow h-12 flex justify-between items-center px-2 fixed w-full z-100 top-0 sm:px-16">
       <span className="font-medium">
         <Link href="/">Redish101</Link>
       </span>

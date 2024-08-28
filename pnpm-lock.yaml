@@ -19,9 +19,6 @@ importers:
       "@types/mdx":
         specifier: ^2.0.13
         version: 2.0.13
-      github-markdown-css:
-        specifier: ^5.6.1
-        version: 5.6.1
       next:
         specifier: 15.0.0-rc.0
         version: 15.0.0-rc.0(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)
@@ -1879,13 +1876,6 @@ packages:
       {
         integrity: sha512-ZCuZCnlqNzjb4QprAzXKdpp/gh6KTxSJuw3IBsPnV/7fV4NxC9ckB+vPTt8w7fJA0TaSD7c55BR47JD6MEDyDw==,
       }
-
-  github-markdown-css@5.6.1:
-    resolution:
-      {
-        integrity: sha512-DItLFgHd+s7HQmk63YN4/TdvLeRqk1QP7pPKTTPrDTYoI5x7f/luJWSOZxesmuxBI2srHp8RDyoZd+9WF+WK8Q==,
-      }
-    engines: { node: ">=10" }
 
   glob-parent@5.1.2:
     resolution:
@@ -5179,8 +5169,6 @@ snapshots:
   get-tsconfig@4.7.5:
     dependencies:
       resolve-pkg-maps: 1.0.0
-
-  github-markdown-css@5.6.1: {}
 
   glob-parent@5.1.2:
     dependencies:

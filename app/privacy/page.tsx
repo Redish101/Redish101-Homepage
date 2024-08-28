@@ -1,5 +1,5 @@
 import Content from "@/content/privacy.mdx";
-import "github-markdown-css/github-markdown-light.css";
+import "./content.css";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
