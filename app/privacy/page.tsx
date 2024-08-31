@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 };
 
 export default function PrivacyPage() {
-  const lastUpdated = "2024-8-28";
+  const lastUpdated = "2024-8-31";
   return (
     <div className="min-h-screen">
       <main className="max-w-screen-sm mx-auto p-6 mt-32 break-words">
